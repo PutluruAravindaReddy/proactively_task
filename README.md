@@ -1,36 +1,174 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# ProActively Frontend Task 
 
-First, run the development server:
+This repository contains the frontend implementation for ProVital, a platform designed to connect users with lifestyle medicine experts. The project demonstrates responsive design, reusable components, and modern front-end development practices.
+
+## Table of Contents 
+ 
+- [Overview](#overview)
+ 
+- [Technologies Used](#technologies-used)
+ 
+- [Features](#features)
+ 
+- [Installation](#installation)
+ 
+- [Usage](#usage)
+ 
+- [File Structure](#file-structure)
+ 
+- [Output](#output)
+ 
+- [License](#license)
+
+
+---
+
+
+## Overview 
+
+The project implements a modern, responsive landing page and lifestyle navigation system, focusing on user-centric design and seamless interaction. This project was developed as part of an internship application process to demonstrate front-end expertise.
+
+
+---
+
+
+## Technologies Used 
+ 
+- **Framework** : [Next.js](https://nextjs.org/)  (React-based)
+ 
+- **Styling** : SCSS Modules for modular and reusable styling
+ 
+- **Assets** : SVG images for high-quality visuals
+ 
+- **State Management** : React hooks (`useState`, `useRef`) for interactive features
+ 
+- **Responsive Design** : Media queries for seamless responsiveness on desktop and mobile devices
+
+
+---
+
+
+## Features 
+ 
+- **Landing Page** :
+  - Animated image columns with scrolling effect
+
+  - Highlighted bottom gradient line for aesthetic design
+
+  - Dynamic search bar with support for conditions, locations, and insurance
+ 
+- **Lifestyles Section** :
+  - Tab-based navigation for six key lifestyle categories
+
+  - Horizontal scrolling cards with auto-scroll based on tab selection
+
+  - Interactive badges on each card with icons and text
+
+  - Scalable hover effects for desktop and mobile devices
+ 
+- **Responsive Design** :
+  - Optimized for mobile and desktop views
+
+  - Mobile-specific elements like hidden navigation arrows and additional images
+
+
+---
+
+
+## Installation 
+
+To set up the project locally, follow these steps:
+ 
+1. **Clone the repository** :
+
+```bash
+git clone https://github.com/your-username/proactively_task.git
+cd proactively_task
+```
+ 
+2. **Install dependencies** :
+Ensure you have Node.js installed. Then run:
+
+```bash
+npm install
+```
+ 
+3. **Run the development server** :
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+```
+Open [http://localhost:3000]()  to view the project.
+
+
+---
+
+
+## Usage 
+ 
+- **Desktop View** :
+  - Explore the landing page with dynamic scrolling images and a functional search bar.
+
+  - Navigate through the lifestyle sections using the tabs.
+ 
+- **Mobile View** :
+  - Enjoy optimized layouts with interactive cards and additional features.
+
+
+---
+
+
+## File Structure 
+
+
+```plaintext
+.
+├── public/                # Static assets (SVGs, images)
+├── styles/                # SCSS module files
+│   ├── Navbar.module.scss
+│   ├── Landing.module.scss
+│   └── Lifestyles.module.scss
+├── pages/                 # Next.js pages
+│   ├── index.tsx          # Landing page
+│   └── lifestyles.tsx     # Lifestyles section
+├── components/            # Reusable React components
+│   ├── Navbar.tsx         # Navigation bar component
+│   ├── LandingPage.tsx    # Landing page component
+│   └── Lifestyles.tsx     # Lifestyles section component
+├── package.json           # Project metadata and dependencies
+└── README.md              # Project documentation
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+## Output
 
-To learn more about Next.js, take a look at the following resources:
+The deployed project can be viewed [here]()
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## License 
+This project is licensed under the [MIT License]() . You are free to use, modify, and distribute this code for educational and professional purposes.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Author 
+ 
+- **Name** : [ARAVINDA REDDY P]
+ 
+- **Role** : Front-End Developer (Internship Applicant)
+ 
+- **Contact** : [[aravindareddy60@gmail.com](aravindareddy60@gmail.com) ]
+ 
+- **LinkedIn** : [https://linkedin.com/in/putluruaravindareddy](https://linkedin.com/in/putluruaravindareddy)
+
+
+---
+
+
+Let me know if you need any changes or additional sections!
